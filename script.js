@@ -32,7 +32,7 @@ const listaAlunos = [
         nome: 'Ana', 
         idade: 19, 
         curso: 'Direito', 
-        cidade: 'Salvador' 
+        cidade: 'Bahia' 
     }
 ];
 
