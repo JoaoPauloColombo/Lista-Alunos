@@ -8,7 +8,7 @@ module.exports = () => {
         <meta http-equiv='X-UA-Compatible' content='IE=edge'>
         <title> Frontend - Atividade 01 </title>
         <meta name='viewport' content='width=device-width, initial-scale=1'>
-        <link rel='stylesheet' type='text/css' media='screen' href='listaAlunos.css'>
+        <link rel='stylesheet' type='text/css' media='screen' href='css/listaAlunos.css'>
     </head>
     
     <body>
