@@ -1,7 +1,7 @@
 const express = require("express");
 const app = express();
 
-// const listaAlunos = require("./views/listaAlunos");
+// const listaAlunos = require("./src/views/listaAlunos");
 
 app.use(express.static("public"));
 
