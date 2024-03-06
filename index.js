@@ -1,6 +1,8 @@
 const express = require("express");
 const app = express();
 
+app.use(express.static("public"));
+
 const routes = require('./src/routes/routes')
 app.use('/',routes)
 
