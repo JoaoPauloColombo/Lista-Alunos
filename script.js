@@ -50,7 +50,8 @@ app.get('/listaAlunos', (req, res) => {
     let arrAluno = ["Ana", "Carlos", "Renato"];
     let texto="";
     for (i = 0; i < arrAluno.length; i++) {
-        texto += i + ":" + arrAluno[i] + "<br>";
+        // texto += i + ":" + arrAluno[i] + "<br>";
+        texto += i + ":" + Object.values(arrAluno[i]) +"<br>";
     }
         res.writeHead(200,{'Content-Type': 'text/html; charset=utf-8'});
         res.end(texto);
